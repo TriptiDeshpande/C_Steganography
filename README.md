@@ -7,7 +7,7 @@ The core objective is to maintain the visual integrity of the image while hiding
 
 ---
 
-## 🎯 Objectives
+## Objectives
 - Conceal text or binary data within standard image formats (e.g., BMP, PNG).
 - Ensure that stego images remain visually indistinguishable from the original cover images.
 - Provide reliable encoding and decoding functionality with basic error handling.
@@ -66,4 +66,21 @@ Encoding
 ## Decoding
 ```bash
 ./a.out -d <stego_image.bmp>
+```
+## File Descriptions
+```
+├── a.out                 # Compiled executable for encoding and decoding
+├── beautiful.bmp         # Original cover image used to embed the secret message
+├── stego.bmp             # Output image containing the hidden message
+├── secret.txt            # Text file containing the secret message to be embedded
+├── decoded_secret.txt    # Output file where the extracted message is saved
+├── Terminal_Output.png   # Screenshot of terminal showing program output
+
+├── common.h              # Header file with common macros and constants
+├── types.h               # Header file defining enums and custom data types
+├── encode.c              # Source file with functions to embed data into image
+├── encode.h              # Header file for encode-related function declarations
+├── decode.c              # Source file with functions to extract data from image
+├── decode.h              # Header file for decode-related function declarations
+├── test_encode.c         # Test program to validate and debug encoding functionality
 ```
