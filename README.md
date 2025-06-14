@@ -1,7 +1,7 @@
 # 
 # Steganography Using Least Significant Bit (LSB) Technique
 
-## 📘 Overview
+## Overview
 This project implements a steganographic system using the **Least Significant Bit (LSB)** technique to securely embed and extract secret messages within digital images. 
 The core objective is to maintain the visual integrity of the image while hiding information in a way that is imperceptible to the human eye.
 
@@ -14,7 +14,7 @@ The core objective is to maintain the visual integrity of the image while hiding
 
 ---
 
-## 🧩 Features
+## Features
 
 - **LSB Encoding & Decoding**: Bit-level embedding of secret data within image pixels.
 - **Support for Text & Binary Files**: Handles both plain text and file-based data.
@@ -23,7 +23,7 @@ The core objective is to maintain the visual integrity of the image while hiding
 
 ---
 
-## 🛠️ Methodology
+## Methodology
 
 ### Encoding Process
 1. **Pre-processing**:
