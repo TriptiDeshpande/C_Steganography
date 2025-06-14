@@ -1,9 +1,9 @@
-# 
+
 # Steganography Using Least Significant Bit (LSB) Technique
 
 ## Overview
-This project implements a steganographic system using the **Least Significant Bit (LSB)** technique to securely embed and extract secret messages within digital images. 
-The core objective is to maintain the visual integrity of the image while hiding information in a way that is imperceptible to the human eye.
+This project implements steganography using the Least Significant Bit (LSB) method to embed secret messages within BMP image files. 
+The LSB method involves modifying the least significant bits of pixel values in an image to hide data, making the changes imperceptible to the human eye.
 
 ---
 
@@ -54,18 +54,18 @@ The core objective is to maintain the visual integrity of the image while hiding
 ## Output
 
 - **Stego Image**: Image with embedded data (e.g., `stego.bmp`)
-- **Decoded Message**: Extracted message or file retrieved during decoding
+- **Decoded Message**: Extracted message or file retrieved during decoding (e.g., `decoded_secret.txt`)
 
 ---
 
 ## How to Use
 Encoding
 ```bash
-./a.out -e <cover_image.bmp> <secret_file.txt>
+./a.out -e beautiful.bmp secret.txt [stego.bmp]
 ```
 ## Decoding
 ```bash
-./a.out -d <stego_image.bmp>
+./a.out -d stego.bmp [decode_secret.txt]
 ```
 ## File Descriptions
 ```
