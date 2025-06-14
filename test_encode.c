@@ -1,8 +1,6 @@
 /*
 
 Name : Tripti Deshpande
-Student id - 24001_003
-Date : 23/09/2024
 
 Project title: Steganography Using LSB Method
 
